@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.h1{
+    @apply text-[64px] font-bold space-y-3;
+}
+.h2{
+    @apply text-[58px] font-semibold space-y-3;
+}
+.h3{
+    @apply text-[38px] font-semibold space-y-3;
+}
+.h4{
+    @apply text-[40px] font-semibold space-y-3;
+}
+.h5{
+    @apply text-[32px] font-semibold space-y-3;
+}
+.h6{
+    @apply text-[20px] font-semibold space-y-3;
+}
+.title1{
+    @apply text-[32px] font-semibold;
+}
+.title2{
+    @apply text-[24px] font-semibold;
+}
+.btn{
+    @apply py-3 px-6 my-5 bg-[#FF6433] hover:bg-[#1E1B1B] text-white text-[18px] font-semibold rounded-lg capitalize ;
+}
+.nav{
+    @apply w-[1200px] flex justify-between items-center mx-auto py-3;
+}
+.ul{
+    @apply flex justify-between items-center mx-auto;
+}
+.container{
+    @apply w-[1200px] mx-auto flex justify-between items-center;
+}
+.box{
+    @apply flex flex-col justify-center items-center gap-3 bg-[#FFFFFF] hover:bg-[#FF6433];
+}
+.grid-1{
+    @apply grid grid-cols-4 gap-3;
+}
+.grid-2{
+    @apply grid grid-cols-5 gap-10;
+}
+.Secondary{
+    @apply bg-[#661CE7];
+}
+.primary{
+    @apply bg-[#FF6433];
+}
+.mint{
+    @apply bg-[#00D289];
+}
+.Black{
+    @apply bg-[#1E1B1B];
+}
+.Grey{
+    @apply bg-[#939191];
+}
+.Light-Grey{
+    @apply bg-[#F2F2F2];
+}
