@@ -37,11 +37,14 @@
 .container{
     @apply w-[1200px] mx-auto flex justify-between items-center;
 }
+.container2{
+    @apply w-[1200px] mx-auto flex justify-center items-center;
+}
 .box{
     @apply flex flex-col justify-center items-center gap-3 bg-[#FFFFFF] hover:bg-[#FF6433];
 }
 .grid-1{
-    @apply grid grid-cols-4 gap-3;
+    @apply grid grid-cols-4 gap-10 justify-between items-center ;
 }
 .grid-2{
     @apply grid grid-cols-5 gap-10;
